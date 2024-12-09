@@ -1,0 +1,27 @@
+footer {
+    background-color: #28282b;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-links {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .footer-links li {
+    display: inline;
+    margin: 0 10px;
+  }
+  
+  .footer-links a {
+    color: #fff;
+    text-decoration: none; /* Remove underline */
+    transition: color 0.2s ease; /* Smooth transition effect */
+  }
+  
+  .footer-links a:hover {
+    color: red; /* Change color on hover */
+  }
+  
