@@ -1,0 +1,43 @@
+@use '../abstracts/variables' as v;
+
+.skills-section {
+  text-align: center;
+  padding: 40px;
+  color:v.$color-accent; 
+
+  h2 {
+    font-family: 'Orbitron', sans-serif; // Replace with your cyberpunk-style font
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+  }
+
+  .skills-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 120px; // Set a fixed width for each skill container
+
+    img {
+      width: 80%; // Adjust based on your preference
+      height: auto;
+      margin-bottom: 10px;
+    
+    }
+
+    p {
+      font-family: 'Orbitron', sans-serif;
+      font-size: 1rem;
+      color: white;
+      margin-top: 8px;
+    }
+  }
+}
+
+
