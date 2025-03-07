@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project2</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link rel="stylesheet" href="css/grid.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/ScrollTrigger.min.js"></script>
+
+    <script defer type="module" src="js/main.js"></script>
+  </head>
+  <body data-page="project-details">
+    <!-- Header -->
+    <header class="grid-con header">
+      <div class="col-span-3 m-col-span-1 l-col-span-1 logo">
+        <img src="images/Rebin Reji Vazhavilayil.png" />
+      </div>
+
+      <!-- hamburger icon -->
+      <div class="hamburger" id="hamburger-icon">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+
+      <!-- desktop and tablet Nav Bar -->
+      <nav
+        class="col-start-4 col-end-5 m-col-span-11 l-col-span-11 desktop navbar"
+      >
+        <h2 class="hidden">Main Navigation Bar</h2>
+        <ul class="nav-list">
+          <a class="nav-item" href="index.html">Home</a>
+          <a class="nav-item">Product</a>
+          <a class="nav-item">Contact</a>
+        </ul>
+      </nav>
+
+      <!-- mobile navigation bar -->
+      <nav id="navbar-mobile" class="mobile navbar-mobile">
+        <h2 class="hidden">Mobile Navigation Bar</h2>
+        <a class="nav-item" href="index.html">Home</a>
+        <a class="nav-item">Product</a>
+        <a class="nav-item">Contact</a>
+      </nav>
+    </header>
+
+    <section class="project-details">
+      <div class="container">
+        <h2 class="project-title" id="projectTitle">Bee Vibe Earbuds</h2>
+        <!-- Project Item 1 -->
+        <div class="project-item">
+          <img
+            src="images/project2-1.png"
+            alt="Project Image 1"
+            class="project-image"
+          />
+          <p class="project-description">The Bee Vibe earbuds page showcases an innovative product designed to deliver an exceptional audio experience. With a bold yellow and black color scheme, these earbuds not only offer superior sound quality but also boast a sleek, modern design that stands out. The page highlights key features such as noise cancellation, comfortable fit, and long battery life, making it the perfect companion for music lovers on the go. Whether you're working out, commuting, or simply enjoying your favorite tunes, Bee Vibe earbuds provide an immersive sound experience with style.</p>
+        </div>
+        <!-- Project Item 2 (alternate layout) -->
+        <div class="project-item reverse">
+          <img
+            src="images/project2-2.png"
+            alt="Project Image 2"
+            class="project-image"
+          />
+          <p class="project-description">The Bee Vibe earbuds website takes user engagement to the next level with interactive features like the X-ray view and model viewer. The X-ray view allows visitors to explore the internal components of the earbuds, offering a unique look at the technology that powers the product. Meanwhile, the model viewer provides a 360-degree rotation of the earbuds, giving users the opportunity to examine the design from every angle. These interactive tools not only enhance the browsing experience but also provide a deeper understanding of the craftsmanship and innovation behind the Bee Vibe earbuds, making it an informative and visually captivating experience.</p>
+        </div>
+    <footer>
+      <div class="footer-content">
+        <ul class="footer-links">
+          <li><a href="https://www.linkedin.com/in/your-profile" target="_blank">LinkedIn</a></li>
+          <li><a href="https://github.com/your-profile" target="_blank">GitHub</a></li>
+        </ul>
+        <p>&copy; 2024 Rebin Reji Vazhavilayil. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
