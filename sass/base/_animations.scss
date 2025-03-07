@@ -1,0 +1,50 @@
+// Define your brand color variable using SCSS syntax
+$brand: #28282B; 
+
+// Utilize SCSS variables for broader use within :root for CSS custom properties
+:root {
+  --brand: #{$brand}; // SCSS variable inside a custom property
+}
+
+// Triangle styling
+.triangle {
+  width: 0;
+  height: 0;
+  border-left: 50px solid transparent;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid $brand; // Direct use of SCSS variable
+}
+
+// Overlay styling
+.overlay {
+  background-color: var(--brand); // Using CSS custom property for consistency
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0; // Ensure it stretches across the container
+  height: 100%; // Cover the entire height of the parent
+  z-index: 20; // Make sure this is above the .content but below the clickable elements
+}
+
+// Reveal and content styling
+.reveal {
+  position: relative;
+  width: fit-content;
+  overflow: hidden;
+}
+
+.para{
+  font-weight: bold;
+}
+/* Style for the skill items */
+.skill-item img {
+  width: 100px; /* Adjust the size as needed */
+  height: auto;
+  transition: transform 0.3s ease-in-out; /* Smooth scale effect */
+}
+
+/* Hover effect for the skill items */
+.skill-item:hover img {
+  transform: scale(1.2); /* Scale the image by 1.2 times */
+  transition: transform 0.3s ease-in-out;
+}

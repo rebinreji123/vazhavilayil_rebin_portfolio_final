@@ -1,0 +1,40 @@
+html{
+  scroll-behavior: smooth;
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.8); /* Dark background with transparency */
+  backdrop-filter: blur(10px); /* Smooth glass effect */
+  padding: 15px 30px; /* Adjust padding for better spacing */
+  z-index: 1000; /* Ensures it stays above other elements */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+/* Adjust body to prevent content from hiding behind the fixed header */
+body {
+  padding-top: 80px; /* Adjust this value based on your header height */
+}
+
+
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+
+}
+
+body {
+  background-color: black;
+  /* Set background size to cover the entire viewport */
+  background-size: cover;
+  /* Set background to no-repeat */
+  background-repeat: no-repeat;
+  /* Center the background */
+  background-attachment: fixed;
+  /* You can adjust background properties as needed */
+}
