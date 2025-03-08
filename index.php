@@ -112,7 +112,7 @@ $results = mysqli_query($connect,$query);
 
         >
           <div class="my-image">
-            <img src="images/hero imagefip.png" alt="Sneh Patel" />
+            <img src="images/hero imagefip.png" alt="Rebin Reji" />
           </div>
         </div>
       </section>
