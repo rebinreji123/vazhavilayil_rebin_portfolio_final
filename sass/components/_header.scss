@@ -25,6 +25,7 @@ $transition-time: 0.3s; // Time for transition effects
   z-index: 10;
 
   .logo img {
+    margin-left: 100px;
     grid-column: 1 / span 3;
     width: 80%; 
     height: auto; 
